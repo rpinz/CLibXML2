@@ -6,5 +6,6 @@ let package = Package(
 	providers: [
 		.Brew("libxml2"),
 		.Apt("libxml2-dev")
-	]
+	],
+        swiftLanguageVersions: [3,4]
 )
